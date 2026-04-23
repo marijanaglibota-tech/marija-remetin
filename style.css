@@ -80,7 +80,21 @@ body {
 h3 {
     margin-top: 25px;
 }
+.back-link {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 15px;
+}
 
+.back-link a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.back-link a:hover {
+    text-decoration: underline;
+}
 h4 {
     margin-bottom: 5px;
 }
