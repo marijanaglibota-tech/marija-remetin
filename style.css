@@ -7,17 +7,17 @@ body {
 
 .title {
     text-align: center;
-    margin-bottom: 20px;
     color: #2e7d32;
+    margin-bottom: 25px;
 }
 
 .grid {
+    max-width: 1100px;
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, 1fr);
     gap: 15px;
-    max-width: 1000px;
-    margin: auto;
 }
 
 .box {
@@ -32,32 +32,6 @@ body {
     color: #2e7d32;
 }
 
-.buttons {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 8px;
-    margin-top: 10px;
-}
-
-button {
-    padding: 8px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #2e7d32;
-}
-
-.item {
-    border: 1px solid #ccc;
-    padding: 8px;
-    margin-top: 8px;
-}
-
-.icons {
-    font-size: 24px;
-    margin-top: 10px;
+ul {
+    padding-left: 18px;
 }
