@@ -51,3 +51,42 @@ body {
 .buttons a:hover {
     background-color: #e0e0e0;
 }
+/* ---- GASTRONOMIJA STRANICA ---- */
+
+.top-bar {
+    border: 1px solid black;
+    padding: 6px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.columns {
+    display: flex;
+    gap: 40px;
+    width: 90%;
+    margin: auto;
+}
+
+.column {
+    width: 50%;
+}
+
+h3 {
+    margin-top: 25px;
+}
+
+h4 {
+    margin-bottom: 5px;
+}
+
+ul {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
